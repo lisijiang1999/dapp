@@ -1,0 +1,7 @@
+@import '~antd/dist/antd.css';
+body{
+    background:#F5F5F5;
+}
+.ant-drawer-body{
+    padding:0;
+}

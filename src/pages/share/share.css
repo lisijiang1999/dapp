@@ -1,0 +1,54 @@
+.share{
+    height:calc(100vh - 60px);
+}
+.share .share-content{
+    height: calc(100vh - 60px);
+    width:100%;
+    background: #fff;
+    padding:15px 20px;
+    text-align: center;
+}
+.share-content h5{
+    font-size:18px;
+}
+.share-content .url1{
+    color:#999;
+    /* text-align: left; */
+    margin-top:10px;
+}
+.share-content .url2{
+    color:#999999;
+    margin-top:15px;
+    margin-top:5px;
+}
+.share-content .btn{
+    display: block;
+    margin:0 auto;
+    height:50px;
+    width:180px;
+    background: #4494DA;
+    border-radius: 6px;
+    color:#fff;
+    line-height: 50px;
+    font-size:16px;
+    cursor: pointer;
+}
+.share-content .copyUrl{
+    margin-top:30px;
+    display: block;
+}
+.share-content .codeImg{
+    width: 150px;
+    height: 150px;
+}
+.share-connectBtn{
+    width: 160px;
+    height: 50px;
+    background: #4CBDE3;
+    line-height: 50px;
+    margin: 200px auto 0;
+    font-size:16px;
+    border-radius: 6px;
+    color:#fff;
+    text-align: center;
+}

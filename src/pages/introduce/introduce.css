@@ -1,0 +1,91 @@
+.bgImg{
+    width: 100%;
+  }
+  .homeLogo{
+    position: absolute;
+    top:70px;
+    left:50%;
+    height: 24px;
+    transform: translateX(-50%);
+  }
+  .title{
+    position: absolute;
+    top:130px;
+    left:0;
+    width: 100%;
+    color:#9d99c4;
+    text-align: center;
+  }
+  .title::after{
+    content:"";
+    position: absolute;
+    right:50%;
+    bottom: -15px;
+    border-top:2px solid #9d99c4;
+    width: 30px;
+    transform: translateX(50%);
+  }
+  .title2{
+    position: absolute;
+    top:180px;
+    left:0;
+    width: 100%;
+    color:#fff;
+    text-align: center;
+    font-size:30px;
+    font-weight: 600;
+  }
+  .title2 .title2Title{
+    color:#fff;
+    font-size:30px;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  .title3{
+    position: absolute;
+    top:520px;
+    left:50%;
+    width: 140px;
+    color:#fff;
+    text-align: center;
+    font-size:26px;
+    transform: translateX(-50%);
+  }
+  .title3::before{
+    content:"";
+    position: absolute;
+    top:6px;
+    left:-23px;
+    width: 15px;
+    height: 30px;
+    background: url('../../assets/img/tip-img.png') no-repeat;
+    background-size: 100%;
+  }
+  .title3::after{
+    content:"";
+    position: absolute;
+    top:6px;
+    right:-20px;
+    width: 15px;
+    height: 30px;
+    background: url('../../assets/img/tip-img.png') no-repeat;
+    background-size: 100%;
+  }
+  .title3 span{
+    position: absolute;
+    right:50%;
+    bottom: 8px;
+    border-top:3px solid #da5dd8;
+    width: 30px;
+    transform: translateX(50%);
+  }
+  .text{
+    position: absolute;
+    top:610px;
+    left:0;
+    width: 100%;
+    color:#fff;
+    font-size:14px;
+    padding:0 20px;
+    line-height: 28px;
+  }

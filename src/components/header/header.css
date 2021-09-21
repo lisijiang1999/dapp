@@ -1,0 +1,62 @@
+.header{
+    height:60px;
+    background: #3677CB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 16px;
+    /* position: relative;
+    z-index: 9999; */
+}
+.header div{
+    display: flex;
+    align-items: center;
+}
+.header .logo{
+    height: 16px;
+}
+.header .accout{
+    display: inline-block;
+    height: 34px;
+    width: 80px;
+    line-height: 34px;
+    border-radius: 5px;
+    background: #4685D5;
+    margin-right:10px;
+    color:#fff;
+    font-size:14px;
+    padding:0 10px;
+    position: relative;
+}
+.header .connect{
+    display: inline-block;
+    height: 34px;
+    width: 80px;
+    line-height: 34px;
+    border-radius: 5px;
+    background: #4685D5;
+    margin-right:10px;
+    color:#fff;
+    font-size:14px;
+    padding:0 6px;
+    text-align: center;
+    cursor: pointer;
+}
+.header .menu{
+    color:#fff;
+    font-size:22px;
+}
+.language{
+    margin-right:10px;
+}
+.language .btn{
+    width: 22px;
+    height: 22px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size:10px;
+    line-height: 17px;
+    text-align: center;
+    color:#fff;
+    margin-right:4px;
+}

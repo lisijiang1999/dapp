@@ -1,0 +1,159 @@
+.whiteList{
+    height:calc(100vh - 60px);
+}
+.whiteList .whiteList-t{
+    width:100%;
+}
+.whiteList .whiteList-t div{
+    width:100%;
+    height: 70px;
+    background: #4182d6;
+}
+.whiteList-t span{
+    display: block;
+    height: 50px;
+    background: url('../../assets/img/white-bg.png') no-repeat;
+    background-size:100% 50px;
+}
+.whiteList-content{
+    width:90%;
+    border-radius: 8px;
+    background: #fff;
+    margin:-100px auto 0;
+    padding:20px 15px;
+}
+.whiteList-content .item1-title{
+    display: block;
+    margin-bottom: 5px;
+}
+.whiteList-content .item1{
+    width: 100%;
+    border:1px solid #E6E6E6;
+    border-radius: 4px;
+    height: 50px;
+    line-height: 50px;
+    background: #F5F5F5;
+    padding:0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whiteList-content .item1 img{
+    width:28px;
+}
+.whiteList-content .item1 span{
+    color:#333;
+    font-weight: 600;
+    margin-left:10px;
+}
+.whiteList-content .item1 .arrColor{
+    color:#999;
+}
+.whiteList-content .item1 .amount{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.whiteList-content .item1 .amount span{
+    line-height: 22px;
+}
+.whiteList-content .item1 .amount span:nth-child(1){
+    color:#999999
+}
+.whiteList-content .item1 .amount span:nth-child(2){
+    color:#CCCCCC
+}
+.next{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin:20px auto;
+}
+.whiteList-content .computational{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border:1px solid #E6E6E6;
+    border-radius: 4px;
+    height: 50px;
+    line-height: 50px;
+    background: #F5F5F5;
+    padding:0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whiteList-content .computational span:nth-child(1){
+    color:#333;
+}
+.whiteList-content .computational span:nth-child(2){
+    color:#999;
+}
+.whiteList-content .connect{
+    width: 160px;
+    height: 50px;
+    background: #4CBDE3;
+    line-height: 50px;
+    margin: 30px auto;
+    font-size:16px;
+    border-radius: 6px;
+    color:#fff;
+    text-align: center;
+}
+.item2{
+    width:90%;
+    border-radius: 8px;
+    background: #fff;
+    margin:-100px auto 0;
+    padding:20px 15px;
+    margin-top:20px;
+}
+.computational2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.computational2 span:nth-child(1){
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+}
+.computational2 span:nth-child(2){
+    flex:1;
+    /* border: 1px solid #E6E6E6; */
+    border-radius: 4px;
+    height: 50px;
+    line-height: 50px;
+    background: #F5F5F5;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item2 .exchange{
+    width: 200px;
+    height: 50px;
+    background: #4494DA;
+    line-height: 50px;
+    margin: 30px auto 0;
+    font-size:16px;
+    border-radius: 6px;
+    color:#fff;
+    text-align: center;
+}
+.white-connectBtn{
+    width: 160px;
+    height: 50px;
+    background: #4CBDE3;
+    line-height: 50px;
+    margin: 0 auto;
+    font-size:16px;
+    border-radius: 6px;
+    color:#fff;
+    text-align: center;
+}
